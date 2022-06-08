@@ -1,6 +1,6 @@
 # Morse-Decoder
 
-> This is morse code decoder built with ruby.
+> This is a morse code decoder built with ruby.
 
 ## Getting Started
 
