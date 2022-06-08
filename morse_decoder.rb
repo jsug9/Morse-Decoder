@@ -33,3 +33,8 @@ end
 def decode_word(decodedWord)
   decodedWord.split(' ').map { |char| decode_char(char) }.join
 end
+
+def decode(decodeSentence)
+  decodeSentence.split('   ').map { |word| decode_word(word) }.join(' ')
+end
+print decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
