@@ -30,4 +30,6 @@ def decode_char(decodedChar)
  character_translator[decodedChar]
 end
 
-print decode_char('--..');
+def decode_word(decodedWord)
+  decodedWord.split(' ').map { |char| decode_char(char) }.join
+end
